@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import img from '@/public/seksom bg trimmed.png';
+import img from '@/public/profile.png';
 import Image from 'next/image';
 import { Socials } from '@/constants';
 
@@ -38,7 +38,7 @@ export default function About() {
             Hi, my name is
           </h1>
           <h1 className="md:text-[90px] md:text-left md:pt-5 text-[3rem] leading-[50px] pt-4 md:pb-24 md:leading-[90px] font-extralight md:pl-0">
-            SAKSHAM BOTKE
+            Musunza Festus
           </h1>
         </motion.div>
 
@@ -47,7 +47,7 @@ export default function About() {
           <Image
             src={img}
             alt="logo"
-            className="md:pt-8 md:pb-0 md:w-[600px] md:h-[500px] pt-7 pb-12"
+            className="md:pt-8 md:pb-0 md:h-[500px] pt-7 pb-12"
           />
         </motion.div>
 
@@ -58,7 +58,10 @@ export default function About() {
           <div className="w-[3px] md:h-[320px] h-[370px] bg-white"></div>
           <div className="pl-5">
             <p className="text-justify font-thin pt-5">
-              I'm a pre-final Engineering student who is passionate about Web Development and has a keen interest in the ever-evolving world of technology. Soon to be an Information Technology professional with a Bachelor of Technology from SRM University. Let's connect to explore the dynamic world of tech and design together!
+            I am an enthusiastic Full-stack developer with a solid experience of over 3
+years in website Design and Development. with these experience I can work on
+both solo projects and Team collaboration.
+. Let's connect to explore the dynamic world of tech and design together!
             </p>
             <div className="flex flex-row gap-5 pt-5">
               {Socials.map((social, index) => (

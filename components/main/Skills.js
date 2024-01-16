@@ -36,7 +36,7 @@ const Skills = () => {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center" style={{background: '#fff', padding: '10px', boaderRadius: '15px'}}>
           {Skill_data3.map((image, index) => (
             <SkillMotion
               key={index}

@@ -1,6 +1,6 @@
 import Skills from '@/components/main/Skills'
 import Projects from '@/components/main/Projects'
-import Contact from '@/components/main/Contact'
+// import Contact from '@/components/main/Contact'
 import Experience from "@/components/main/Experience"
 import About from '@/components/main/About'
 
@@ -12,7 +12,7 @@ export default function Home() {
           <Experience/>
           <Skills/>
           <Projects/>
-          <Contact/>
+          {/* <Contact/> */}
       </div>
    </main>
    

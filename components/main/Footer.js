@@ -15,7 +15,7 @@ function Footer() {
         </div>
 
         <div className='text-white md:ml-32 font-semibold m-0 text-left'>
-          <h1>Made with Love 🐾 <span className=' text-gray-500 md:mr-3 md:text-[13px] '>By Saksham Botke</span></h1>
+          <h1>Made with Love 🐾 <span className=' text-gray-500 md:mr-3 md:text-[13px] '>By Musunza Festus</span></h1>
         </div>
 
         <div>

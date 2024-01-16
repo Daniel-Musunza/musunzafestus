@@ -8,7 +8,9 @@ import {projectsData} from '@/constants'
 const ProjectItems = () => {
   return projectsData.map((project, index) => (
     <Tilt key={index}>
+      <a href={project.liveLink}>
       <ProjectCard src={project.src} title={project.title} description={project.description} githubLink={project.githubLink}/>
+      </a>
     </Tilt>
   ));
 };
