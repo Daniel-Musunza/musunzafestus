@@ -1,6 +1,7 @@
 "use client"
-import React,{useState} from 'react'
-import {AiFillMail, AiOutlineClose, AiOutlineMail, AiOutlineMenu} from "react-icons/ai"
+import React,{useState} from 'react';
+import { FaWhatsapp } from "react-icons/fa";
+import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from "react-icons/ai";
 
 const Navbar = () => {
     const [nav, setNav] = useState(null)
@@ -30,11 +31,11 @@ const Navbar = () => {
         </ul>
         <div className='flex items-center justify-center md:visible collapse' >   
                  <span className="pl-2" style={{marginRight: '30px'}}>GET IN TOUCH</span>
-                 <a href="https://api.whatsapp.com/send?phone=+254794711950" className="cursor-pointer text-gray-400 font-light flex items-center justify-center md:visible collapse" style={{marginRight: '30px'}}>   
-                      <img src='../../public/whatsapp.png' alt="WhatsApp" width="50px" />
+                 <a href="https://api.whatsapp.com/send?phone=+254794711950" className="cursor-pointer text-gray-400 font-light flex items-center justify-center md:visible collapse" style={{marginRight: '30px', color: 'green'}}>   
+                      <FaWhatsapp size={50}/>
                   </a>
 
-                  <a href="mailto:+254794711950" className="cursor-pointer text-gray-400 font-light flex items-center justify-center md:visible collapse" style={{marginRight: '10px'}}>   
+                  <a href="mailto:musunzafestus2019@gmail.com" className="cursor-pointer text-gray-400 font-light flex items-center justify-center md:visible collapse" style={{marginRight: '10px'}}>   
                       <AiOutlineMail size={50}/>
                   </a>
 
@@ -59,12 +60,12 @@ const Navbar = () => {
               Projects
             </a></li>
           <li className="p-4 pl-8 text-xl border-b border-gray-600">
-            <a href="https://api.whatsapp.com/send?phone=+254794711950" className="cursor-pointer ease-in duration-200  hover:text-black hover:bg-white hover:rounded-full px-[20px] py-[15px]">
-            <img src='../../public/whatsapp.png' alt="WhatsApp" height="20px" style={{padding: '0', margin: 'auto'}}/>
+            <a href="https://api.whatsapp.com/send?phone=+254794711950" className="cursor-pointer ease-in duration-200  hover:text-black hover:bg-white hover:rounded-full px-[20px] py-[15px]" style={{marginRight: '30px', color: 'green'}}>
+            <FaWhatsapp size={50}/>
             </a></li>
             <li className="p-4 pl-8 text-xl border-b border-gray-600">
-            <a href="mailto:+254794711950" className="cursor-pointer ease-in duration-200  hover:text-black hover:bg-white hover:rounded-full px-[20px] py-[15px]">
-            <AiOutlineMail size={50} style={{padding: '0', margin: 'auto'}}/>
+            <a href="mailto:musunzafestus2019@gmail.com" className="cursor-pointer ease-in duration-200  hover:text-black hover:bg-white hover:rounded-full px-[20px] py-[15px]">
+            <AiOutlineMail size={50}/>
             </a></li>
         </ul>
         </div>

@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import img from '@/public/profile.png';
+import img from '@/public/profile2.png';
 import Image from 'next/image';
 import { Socials } from '@/constants';
 
@@ -47,7 +47,7 @@ export default function About() {
           <Image
             src={img}
             alt="logo"
-            className="md:pt-8 md:pb-0 md:h-[500px] pt-7 pb-12"
+            className="md:pt-8 md:pb-0 md:w-[600px] pt-7 pb-12"
           />
         </motion.div>
 
