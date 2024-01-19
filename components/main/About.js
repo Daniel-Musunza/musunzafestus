@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import img from '@/public/profile2.png';
+import img from '@/public/profile.png';
 import Image from 'next/image';
 import { Socials } from '@/constants';
 
