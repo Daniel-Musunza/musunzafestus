@@ -58,10 +58,7 @@ export default function About() {
           <div className="w-[3px] md:h-[320px] h-[370px] bg-white"></div>
           <div className="pl-5">
             <p className="text-justify font-thin pt-5">
-            I am an enthusiastic Full-stack developer with a solid experience of over 3
-years in website Design and Development. with these experience I can work on
-both solo projects and Team collaboration.
-. Let's connect to explore the dynamic world of tech and design together!
+            I am a seasoned software engineer with a strong background in full-stack development, backend systems, web design and development. Passionate about creating innovative solutions and driving projects from conception to delivery. Eager to collaborate with teams to tackle complex challenges and contribute to cutting-edge developments in the tech industry.
             </p>
             <div className="flex flex-row gap-5 pt-5">
               {Socials.map((social, index) => (
