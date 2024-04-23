@@ -198,14 +198,14 @@ export const projectsData = [
     title: "Quality-A Softwares",
     description: "Developed A freelancing management system for developers with admin, freelancer and client dashboards for streamlined task management.",
     githubLink: "https://github.com/Daniel-Musunza/quality-a",
-    liveLink: "www.qualityasoftwares.com"
+    liveLink: "https://www.qualityasoftwares.com"
   },
   {
     src: "/kunakazi.png",
     title: "Kunakazi | Jobs, Profiles, Events",
     description: "Developed A one-stop platform for casual worker profiles, jobs listings and Even listings.",
     githubLink: "https://github.com/Daniel-Musunza/jobshub",
-    liveLink: "www.kunakazi.co.ke"
+    liveLink: "https://www.kunakazi.co.ke"
   },
   {
     src: "/farmersKonnect.png",
