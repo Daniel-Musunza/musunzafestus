@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/main/About.ts", "components/main/Contact.jsx", "components/sub/Earth.jsx", "constants/index.js", "components/main/Projects.jsx", "components/main/Experience.jsx", "components/main/card.jsx", "components/main/Footer.js", "components/sub/ProjectCard.tsx", "components/sub/SkillMotion.js", "components/sub/EarthCanvas.js", "components/sub/CatCanvas.js", "components/sub/Card.js"],
+  "exclude": ["node_modules"]
+}
